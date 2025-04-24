@@ -14,7 +14,7 @@ venom
   .create(
     "apizap",
     (base64Qr) => {
-      qrCode = `data:image/png;base64,${base64Qr}`;
+      qrCode = `${base64Qr}`;
       console.log("QR Code gerado:", qrCode);
     },
     undefined,
